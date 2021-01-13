@@ -1,0 +1,30 @@
+﻿[*.cs]
+# Default severity for analyzer diagnostics with category 'StyleCop.CSharp.LayoutRules'
+dotnet_analyzer_diagnostic.category-StyleCop.CSharp.LayoutRules.severity = error
+
+# Default severity for analyzer diagnostics with category 'StyleCop.CSharp.OrderingRules'
+dotnet_analyzer_diagnostic.category-StyleCop.CSharp.OrderingRules.severity = none
+
+# SA1201: Elements should appear in the correct order
+dotnet_diagnostic.SA1201.severity = none
+
+# Default severity for analyzer diagnostics with category 'StyleCop.CSharp.DocumentationRules'
+dotnet_analyzer_diagnostic.category-StyleCop.CSharp.DocumentationRules.severity = none
+
+# Default severity for analyzer diagnostics with category 'StyleCop.CSharp.ReadabilityRules'
+dotnet_analyzer_diagnostic.category-StyleCop.CSharp.ReadabilityRules.severity = none
+
+# SA1115: Parameter should follow comma
+dotnet_diagnostic.SA1115.severity = none
+
+# Default severity for analyzer diagnostics with category 'Style'
+dotnet_analyzer_diagnostic.category-Style.severity = none
+
+# Default severity for analyzer diagnostics with category 'StyleCop.CSharp.NamingRules'
+dotnet_analyzer_diagnostic.category-StyleCop.CSharp.NamingRules.severity = none
+
+# SX1309S: Static field names should begin with underscore
+dotnet_diagnostic.SX1309S.severity = none
+
+# IDE0010: Добавить отсутствующие варианты
+dotnet_diagnostic.IDE0010.severity = none
